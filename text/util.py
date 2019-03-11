@@ -14,7 +14,3 @@ def blocks(file):
         elif block:
             yield ''.join(block).strip()
             block = []
-
-if __name__ == '__main__':
-    aa = 'aaeeebaa1a2a3b'
-    print(aa.strip('ab'))
