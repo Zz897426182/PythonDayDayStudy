@@ -141,7 +141,7 @@ class ChatServer(asyncore.dispatcher):
 if __name__ == '__main__':
     s = ChatServer(PORT)
     try:
-        print("chat server run at '0.0.0.0:{0}".format(PORT))
+        print("chat server run at 'series.series.series.series:{0}".format(PORT))
         asyncore.loop()
     except KeyboardInterrupt:
         print('chat server exit')
